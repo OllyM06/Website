@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+main{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(141, 211, 37);
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;   
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+}
+
+.navbar a:hover{
+    color: rgb(203, 245, 155);
+    background-color: rgb(107, 106, 106);
+}
+
+.navbar li{
+    float: right;
+}
+
+.button {
+  background-color: #9765fb;
+  border: none;
+  border-radius: 4% / 15%;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: rgb(112, 196, 224);
+  border: none;
+  border-radius: 4% / 15%;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: rgb(128, 247, 144);
+  border: none;
+  border-radius: 4% / 15%;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.center{
+    margin: 7.5px;
+    margin-bottom: 5px;
+    float: left;
+}
